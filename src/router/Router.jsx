@@ -2,7 +2,7 @@ import { createBrowserRouter } from 'react-router-dom';
 import MainLayout from '../layouts/MainLayout';
 import Home from '../components/home/Home';
 
-const Router = () =>createBrowserRouter([
+const Router = createBrowserRouter([
     {
         path: '/',
         element: <MainLayout />,
