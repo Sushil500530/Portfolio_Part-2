@@ -16,6 +16,9 @@ const Navbar = () => {
         <NavLink to='#about' smooth className='text-xl font-medium hover:border-b-2 border-b-black  hover:-translate-y-[1px] w-[80px] flex items-center justify-center transition ease-in-out'>
             About
         </NavLink>
+        <NavLink to='#blog' smooth className='text-xl font-medium hover:border-b-2 border-b-black  hover:-translate-y-[1px] w-[80px] flex items-center justify-center transition ease-in-out'>
+            Blog
+        </NavLink>
         <NavLink to='#contact' smooth className='text-xl font-medium hover:border-b-2 border-b-black  hover:-translate-y-[1px] w-[80px] flex items-center justify-center transition ease-in-out'>
             Contact
         </NavLink>
