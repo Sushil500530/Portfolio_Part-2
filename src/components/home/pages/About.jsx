@@ -1,4 +1,5 @@
 import Image from "../../../assets/image/sushil-bg-.png";
+import { NavHashLink as Link } from "react-router-hash-link";
 const About = () => {
     return (
         <div id="about" className="w-full py-12">
@@ -19,7 +20,8 @@ const About = () => {
                         <h2 className='font-medium text-[18px]'>Phone Number : +8801767122497</h2>
                         <h2 className='font-medium text-[18px]'>Address : Chirirbondar, Dinajpur</h2>
                         <h2 className='font-medium text-[18px]'>Email : sushil500530@gmail.com</h2>
-                        <button id="contact" className='btn bg-gradient-to-l from-[#17c0eb] to-[#8e71ff] px-8 flex items-center justify-center rounded-full text-[18px] dark:hover:text-black font-medium py-2 transform hover:-translate-y-[2px] transition-all ease-in hover:scale-100 text-xl text-black border-none mt-5 hover:text-[#3b26a4] hover:ease-in-out'>Hire Me</button>
+                        <Link to={'#contact'} smooth>
+                            <button className='btn bg-gradient-to-l from-[#17c0eb] to-[#8e71ff] px-8 flex items-center justify-center rounded-full text-[18px] dark:hover:text-black font-medium py-2 transform hover:-translate-y-[2px] transition-all ease-in hover:scale-100 text-xl text-black border-none mt-5 hover:text-[#3b26a4] hover:ease-in-out'>Hire Me</button></Link>
                     </div>
                 </div>
             </div>
