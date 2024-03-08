@@ -2,6 +2,7 @@ import About from "./pages/About";
 import Banner from "./pages/Banner";
 import BlogPage from "./pages/BlogPage";
 import Contact from "./pages/Contact";
+import Footer from "./pages/Footer";
 import Projects from "./pages/Projects";
 import Skills from "./pages/Skills";
 const Home = () => {
@@ -13,6 +14,7 @@ const Home = () => {
             <About />
             <BlogPage />
             <Contact />
+            <Footer />
         </div>
     );
 };
