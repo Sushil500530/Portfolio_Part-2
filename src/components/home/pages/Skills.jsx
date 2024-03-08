@@ -1,7 +1,7 @@
 
 const Skills = () => {
     return (
-        <div id='skills' className="pt-12">
+        <div id='skills' className="py-12">
             <h1 className="text-2xl font-bold text-[#7d5fff] ml-5">Skills</h1>
             <hr className='w-24 border-b-2 border-fuchsia-600 mt-2' />
             <div className="grid grid-cols-3 lg:grid-cols-5 gap-8 mt-10 items-center justify-center">
