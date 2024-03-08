@@ -34,12 +34,12 @@ const Contact = () => {
             <h1 className="text-2xl font-bold text-[#7d5fff] ml-5">Contect Me</h1>
             <hr className='w-44 border-b-2 border-fuchsia-600 mt-2' />
             <div className="w-full flex-col lg:flex-row flex bg-gradient-to-l from-[#40407a] to-black text-gray-400 px-6 rounded-lg py-12 items-center justify-center space-y-3 gap-10 mt-10">
-                <div className="w-full lg:w-1/2">
+                <div data-aos="fade-up" data-aos-duration="3000" className="w-full lg:w-1/2">
                     <div>
                         <img src="https://i.ibb.co/cgcYzH1/Contact-Us-png-1.png" alt="Contact" />
                     </div>
                 </div>
-                <div className="w-full lg:w-1/2">
+                <div data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500" className="w-full lg:w-1/2">
                     <div className="form text-white">
                         <form ref={form} onSubmit={handleSubmit}>
                             <div className="mb-5 space-y-3">
@@ -58,6 +58,7 @@ const Contact = () => {
                         </form>
                     </div>
                 </div>
+                <div data-aos="fade-up" data-aos-easing="linear" data-aos-duration="1500"></div>
             </div>
         </div>
     );

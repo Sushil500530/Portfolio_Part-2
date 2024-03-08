@@ -1,14 +1,22 @@
 import { MdDetails } from "react-icons/md";
 import { Link } from "react-router-dom";
+// import AOS from 'aos';
+// import 'aos/dist/aos.css'; 
 
 const BlogPage = () => {
+    // AOS.init({
+    //     delay: 0,
+    //     duration: 1500,
+    //     easing: 'easeOutExpo',
+    //     offset: 120,
+    // });
     return (
         <div id="blog" className="py-12">
             <h1 className="text-2xl font-bold text-[#7d5fff] ml-5">Blogs</h1>
             <hr className='w-32 border-b-2 border-fuchsia-600 mt-2' />
             <div className='mt-7 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10' >
                 <>
-                    <div className="cursor-pointer border w-full h-[430px] relative group border-[#7d5fff] hover:border-none group rounded-lg hover:rounded-lg overflow-hidden">
+                    <div data-aos="flip-left" className="cursor-pointer border w-full h-[430px] relative group border-[#7d5fff] hover:border-none group rounded-lg hover:rounded-lg overflow-hidden">
                         <div>
                             <img src={'https://i.postimg.cc/gJf8xK34/achivements.jpg'} className='w-full h-[430px]' alt="project-image" />
                         </div>
@@ -20,7 +28,7 @@ const BlogPage = () => {
                     </div>
                 </>
                 <>
-                    <div className="cursor-pointer border w-full h-[430px] relative group border-[#7d5fff] hover:border-none group rounded-lg hover:rounded-lg overflow-hidden">
+                    <div data-aos="flip-left"  className="cursor-pointer border w-full h-[430px] relative group border-[#7d5fff] hover:border-none group rounded-lg hover:rounded-lg overflow-hidden">
                         <div>
                             <img src={'https://i.postimg.cc/gJf8xK34/achivements.jpg'} className='w-full h-[430px]' alt="project-image" />
                         </div>
@@ -32,7 +40,7 @@ const BlogPage = () => {
                     </div>
                 </>
                 <>
-                    <div className="cursor-pointer border w-full h-[430px] relative group border-[#7d5fff] hover:border-none group rounded-lg hover:rounded-lg overflow-hidden">
+                    <div data-aos="flip-left"  className="cursor-pointer border w-full h-[430px] relative group border-[#7d5fff] hover:border-none group rounded-lg hover:rounded-lg overflow-hidden">
                         <div>
                             <img src={'https://i.postimg.cc/gJf8xK34/achivements.jpg'} className='w-full h-[430px]' alt="project-image" />
                         </div>
@@ -44,7 +52,7 @@ const BlogPage = () => {
                     </div>
                 </>
                 <>
-                    <div className="cursor-pointer border w-full h-[430px] relative group border-[#7d5fff] hover:border-none group rounded-lg hover:rounded-lg overflow-hidden">
+                    <div data-aos="flip-left"  className="cursor-pointer border w-full h-[430px] relative group border-[#7d5fff] hover:border-none group rounded-lg hover:rounded-lg overflow-hidden">
                         <div>
                             <img src={'https://i.postimg.cc/gJf8xK34/achivements.jpg'} className='w-full h-[430px]' alt="project-image" />
                         </div>
@@ -55,6 +63,9 @@ const BlogPage = () => {
                         </div>
                     </div>
                 </>
+                <div data-aos="flip-right" >
+
+                </div>
             </div>
         </div >
     );

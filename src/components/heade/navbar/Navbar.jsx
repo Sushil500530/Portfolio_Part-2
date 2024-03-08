@@ -25,8 +25,8 @@ const Navbar = () => {
     </>
     return (
         <div className="w-full relative">
-            <div className="container mx-auto">
-                <div>
+            <div className="container mx-auto ">
+                <div className="py-2">
                     <div className="flex items-center justify-between lg:hidden">
                         <h1 className="p-2 text-3xl font-bold ">Sushil</h1>
                         <button className="p-2 text-2xl" onClick={() => document.getElementById('my_modal_5').showModal()}><FaBars /></button>

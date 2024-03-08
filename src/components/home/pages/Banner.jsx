@@ -2,12 +2,22 @@ import { FaFacebook, FaGithub, FaInstagramSquare, FaLinkedinIn, FaTwitter } from
 import Image from "../../../assets/image/sushil-bg-.png"
 import { Link } from "react-router-dom";
 import { TypeAnimation } from "react-type-animation";
+import AOS from 'aos';
+import 'aos/dist/aos.css'; 
 
 const Banner = () => {
+    AOS.init({
+        delay: 0,
+        duration: 1500,
+        easing: 'easeOutExpo',
+        offset: 120,
+    });
     return (
         <div>
+
+
             <div id='home' className="flex items-center flex-col lg:flex-row md:flex-row gap-5 py-28 w-full">
-                <div className="space-y-3 flex-1 w-full md:w-2/3 lg:w-2/3" >
+                <div data-aos="fade-right" className="space-y-3 flex-1 w-full md:w-2/3 lg:w-2/3" >
                     <h3 className="text-5xl font-semibold">{`Hi, I'm `}<span className="text-[#8e71ff] ">Sushil...</span><span className="animate-ping">👋</span></h3>
                     <h4 className="text-2xl ">I am a <span className="text-3xl text-[#8e71ff]">
                         <TypeAnimation
@@ -43,7 +53,7 @@ const Banner = () => {
                         </ul>
                     </nav >
                 </div>
-                <div className='w-full md:w-[30%] lg:w-[40%] relative '>
+                <div data-aos="fade-left" className='w-full md:w-[30%] lg:w-[40%] relative '>
                     <div className='w-[300px] md:w-[220px] lg:w-[400px] rounded-full mx-auto h-[300px] md:h-[220px] lg:h-[400px] border-4 hover:border-fuchsia-600 transition cursor-pointer border-[#7d5fff]'>
                         <img src={Image} className='w-full h-full rounded-full' alt="profile-image" />
                     </div>
