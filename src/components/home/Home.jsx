@@ -1,14 +1,13 @@
 import About from "./pages/About";
+import Banner from "./pages/Banner";
 import Contact from "./pages/Contact";
 import Projects from "./pages/Projects";
 
 const Home = () => {
 
     return (
-        <div className="relative">
-            <div className="w-full h-screen">
-                <h2 className="text-center text-2xl font-bold">Home is Comming......!</h2>
-            </div>
+        <div className="relative container mx-auto p-5 ">
+            <Banner />
             <Projects />
             <About />
             <Contact />
