@@ -7,6 +7,9 @@ const Navbar = () => {
         <NavLink to={'#'} className='text-xl font-medium border-b-2 w-[80px] flex items-center justify-center hover:border-b-2 border-b-white hover:-translate-y-[1px] transition ease-in-out'>
             Home
         </NavLink>
+        <NavLink to='#skills' smooth className='text-xl font-medium hover:border-b-2 border-b-black  hover:-translate-y-[1px] w-[80px] flex items-center justify-center transition ease-in-out'>
+            Skills
+        </NavLink>
         <NavLink to='#projects' smooth className='text-xl font-medium hover:border-b-2 border-b-black  hover:-translate-y-[1px] w-[80px] flex items-center justify-center transition ease-in-out'>
             Project
         </NavLink>
