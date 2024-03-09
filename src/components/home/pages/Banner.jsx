@@ -4,7 +4,8 @@ import Image from "../../../assets/image/sushil-bg-.png"
 import { Link } from "react-router-dom";
 import { TypeAnimation } from "react-type-animation";
 import AOS from 'aos';
-import 'aos/dist/aos.css'; 
+import 'aos/dist/aos.css';
+import Resume from "../../../assets/image/sushil_resume (2).pdf"
 
 const Banner = () => {
     AOS.init({
@@ -51,8 +52,8 @@ const Banner = () => {
                             </span>
                         </ul>
                     </nav >
-                    <div className="">
-                        <button className="btn btn-info mt-5 flex items-center rounded-full text-base"><span><IoMdCloudDownload className="text-2xl" /></span>Downlaod Resume</button>
+                    <div>
+                       <button><a href={Resume} download className="btn btn-info mt-5 flex items-center rounded-full text-base"><span><IoMdCloudDownload className="text-2xl" /></span>Downlaod Resume </a></button>
                     </div>
                 </div>
                 <div data-aos="fade-left" className='w-full md:w-[30%] lg:w-[40%] relative '>
