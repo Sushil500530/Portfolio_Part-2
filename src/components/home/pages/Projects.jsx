@@ -3,13 +3,10 @@ import { Link } from "react-router-dom";
 import { TbScanEye } from "react-icons/tb";
 
 
-// kick off the polyfill!
-
-
 
 const Projects = () => {
     return (
-        <div id="projects" className="py-12">
+        <div id="projects" className="py-12 relative container mx-auto p-5">
             <h1 className="text-2xl font-bold text-[#7d5fff] ml-5">Projects</h1>
             <hr className='w-32 border-b-2 border-fuchsia-600 mt-2' />
             <div className='mt-7 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10' >

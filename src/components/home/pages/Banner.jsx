@@ -13,9 +13,7 @@ const Banner = () => {
         offset: 120,
     });
     return (
-        <div>
-
-
+        <div className=" container mx-auto p-5">
             <div id='home' className="flex items-center flex-col lg:flex-row md:flex-row gap-5 py-28 w-full">
                 <div data-aos="fade-right" className="space-y-3 flex-1 w-full md:w-2/3 lg:w-2/3" >
                     <h3 className="text-5xl font-semibold">{`Hi, I'm `}<span className="text-[#8e71ff] ">Sushil...</span><span className="animate-ping">👋</span></h3>

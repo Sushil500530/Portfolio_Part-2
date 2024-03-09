@@ -3,7 +3,7 @@ import { NavHashLink as Link } from "react-router-hash-link";
 
 const About = () => {
     return (
-        <div id="about" className="w-full py-12">
+        <div id="about" className="w-full py-12 container mx-auto p-5">
             <h1 className="text-2xl font-bold text-[#7d5fff] ml-5">About Me</h1>
             <hr className='w-40 border-b-2 border-fuchsia-600 mt-2' />
             <div className="flex flex-col lg:flex-row gap-5 w-full h-auto items-center pt-10">

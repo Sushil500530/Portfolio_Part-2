@@ -30,7 +30,7 @@ const Contact = () => {
     }
 
     return (
-        <div id="contact" className="pt-12">
+        <div id="contact" className="pt-12 container mx-auto p-5">
             <h1 className="text-2xl font-bold text-[#7d5fff] ml-5">Contect Me</h1>
             <hr className='w-44 border-b-2 border-fuchsia-600 mt-2' />
             <div className="w-full flex-col lg:flex-row flex bg-gradient-to-l from-[#40407a] to-black text-gray-400 px-6 rounded-lg py-12 items-center justify-center space-y-3 gap-10 mt-10">
