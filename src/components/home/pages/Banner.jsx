@@ -1,4 +1,5 @@
 import { FaFacebook, FaGithub, FaInstagramSquare, FaLinkedinIn, FaTwitter } from "react-icons/fa";
+import { IoMdCloudDownload } from "react-icons/io";
 import Image from "../../../assets/image/sushil-bg-.png"
 import { Link } from "react-router-dom";
 import { TypeAnimation } from "react-type-animation";
@@ -50,6 +51,9 @@ const Banner = () => {
                             </span>
                         </ul>
                     </nav >
+                    <div className="">
+                        <button className="btn btn-info mt-5 flex items-center rounded-full text-base"><span><IoMdCloudDownload className="text-2xl" /></span>Downlaod Resume</button>
+                    </div>
                 </div>
                 <div data-aos="fade-left" className='w-full md:w-[30%] lg:w-[40%] relative '>
                     <div className='w-[300px] md:w-[220px] lg:w-[400px] rounded-full mx-auto h-[300px] md:h-[220px] lg:h-[400px] border-4 hover:border-fuchsia-600 transition cursor-pointer border-[#7d5fff]'>

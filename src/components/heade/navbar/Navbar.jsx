@@ -23,7 +23,7 @@ const Navbar = () => {
         </NavLink>
     </>
     return (
-        <div className="relative bg-gradient-to-r from-[#1e1d1d] to-[#03046f] w-full h-full">
+        <div className="relative bg-gradient-to-b from-[#1e1d1d] to-[#03046f]">
             <div className="container mx-auto ">
                 <div className="py-2">
                     <div className="flex items-center justify-between lg:hidden">

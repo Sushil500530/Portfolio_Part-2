@@ -33,11 +33,11 @@ const MainLayout = () => {
         <>
             {
                 isLoading ? <Preloader /> :
-                    <div id="home" className="relative w-full h-full z-10 text-white">
+                    <div id="home" className="relative w-full h-full z-10 text-white bg-gradient-to-b from-[#1e1d1d] to-[#03046f]">
                         {/* <div className="absolute bg-gradient-to-r from-[#1e1d1d] to-[#03046f] w-full h-full -z-50"></div> */}
                         <div className={`w-full z-20 relative ${isScrolled ? 'block' : 'hidden'}`}>
-                            <Link to={'#home'} smooth className="fixed bottom-3 right-3 animate-bounce w-12 h-12 rounded-full bg-[#8e71ff] text-black font-bold"><span className="w-full h-full flex items-center justify-center">
-                                <IoIosArrowUp className="text-5xl text-black transition ease-in-out hover:text-white" />
+                            <Link to={'#home'} smooth className="fixed bottom-3 right-5 animate-bounce rounded-lg font-bold"><span className="w-full h-full flex items-center justify-center">
+                                <IoIosArrowUp className="btn btn-square bg-[#704ff2] outline-none border-none hover:bg-[#704ff2] text-5xl rounded-lg transition ease-in-out hover:text-white" />
                             </span></Link>
                         </div>
                         <Navbar />
