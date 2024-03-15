@@ -5,6 +5,7 @@ import { TbScanEye } from "react-icons/tb";
 import { useState } from "react";
 import ShowProject from "./modal/ShowProject";
 import useProjectData from "../../hooks/useProjectData";
+import Loader from "../../shared/Loader";
 
 
 
@@ -22,7 +23,10 @@ const Projects = () => {
         setFindProject(data)
        
     }
-    
+
+    if(isLoading || projects?.length < 0){
+        return <Loader />
+    }
     
     return (
         <>
