@@ -5,11 +5,10 @@ import { RxCross1 } from "react-icons/rx";
 
 
 const ShowProject = ({ isOpen, setIsOpen, findProject }) => {
-  const { id, bgImage, showImage, liveLink, clientSite, serverSite, title, usesComponents, description } = findProject || {};
+  const { showImage, clientSite, serverSite, title, usesComponents, description } = findProject || {};
   function closeModal() {
     setIsOpen(false)
   }
-  console.log(usesComponents)
 
   return (
     <>
@@ -23,7 +22,7 @@ const ShowProject = ({ isOpen, setIsOpen, findProject }) => {
             <div className="flex min-h-full items-center justify-center p-4 text-center">
               <Transition.Child as={Fragment} enter="ease-out duration-300" enterFrom="opacity-0 scale-95" enterTo="opacity-100 scale-100" leave="ease-in duration-200" leaveFrom="opacity-100 scale-100" leaveTo="opacity-0 scale-95" >
 
-                <Dialog.Panel className="w-full lg:max-w-lg max-w-md transform rounded-2xl bg-white p-6 text-left align-middle shadow-xl transition-all">
+                <Dialog.Panel className="w-full lg:max-w-lg max-w-md transform rounded-2xl bg-gradient-to-b from-[#1e1d1d] to-[#03046f] text-white border border-[#8e71ff] p-6 text-left align-middle shadow-xl transition-all">
                   <div className='absolute -top-5 -right-3 z-10'>
                     <button type="button" className="btn btn-circle bg-red-600 text-white transform hover:-translate-y-[2px] transition-all ease-in hover:scale-100 hover:text-black hover:bg-gradient-to-l from-purple-500 to-[#8e71ff] border-none"
                       onClick={closeModal} >
