@@ -53,7 +53,7 @@ const Banner = () => {
                         </ul>
                     </nav >
                     <div>
-                        <button><a href={Resume} download className="btn btn-info mt-5 flex items-center rounded-full text-base"><span><IoMdCloudDownload className="text-2xl" /></span>Downlaod Resume </a></button>
+                        <button><a href={Resume} download className="btn bg-gradient-to-l from-purple-500 to-[#8e71ff] px-8 flex items-center justify-center rounded-full text-[18px] dark:hover:text-black font-medium py-2 transform hover:-translate-y-[2px] transition-all ease-in hover:scale-100 text-xl text-black border-none mt-5 hover:text-white hover:ease-in-out"><span><IoMdCloudDownload className="text-2xl" /></span>Downlaod Resume </a></button>
                     </div>
                 </div>
                 <div data-aos="fade-left" className='w-full md:w-[30%] lg:w-[40%] relative '>
