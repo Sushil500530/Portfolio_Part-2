@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import { FaRegEye } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import { TbScanEye } from "react-icons/tb";
@@ -21,7 +22,8 @@ const Projects = () => {
         setFindProject(data)
        
     }
-    console.log(findProject);
+    
+    
     return (
         <>
             <ShowProject isOpen={isOpen} setIsOpen={setIsOpen} findProject={findProject} />
@@ -31,7 +33,7 @@ const Projects = () => {
                 <div className='mt-7 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10' >
                     {
                         projects?.length > 0 && projects?.map((item,) => <div key={item?._id}>
-                            <div data-aos="flip-left" className="cursor-pointer border w-full h-[430px] relative group border-[#7d5fff] hover:border-none group rounded-lg hover:rounded-lg overflow-hidden">
+                            <div data-aos="flip-left" className="cursor-pointer border w-full h-[330px] lg:h-[380px] xl:h-[430px] 2xl:h-[430px] relative group border-[#7d5fff] hover:border-none group rounded-lg hover:rounded-lg overflow-hidden">
                                 <div>
                                     <img src={item?.bgImage} className='w-full h-[430px]' alt="project-image" />
                                 </div>
