@@ -1,12 +1,13 @@
 import { useQuery } from "@tanstack/react-query";
+import useAxiosLink from "./useAxiosLink";
 
 const useProjectData = () => {
+    const getLink = useAxiosLink();
   const {data:projects,refetch,isLoading} = useQuery({
     queryKey:["Projects"],
     queryFn: async() =>{
-        const response = await fetch("http://localhost:5000/datas");
-        const projects = await response.json();
-        return projects;
+        const response = await getLink.get("/datas");
+        return response.data;
     }
   })
   return [projects,refetch,isLoading]
