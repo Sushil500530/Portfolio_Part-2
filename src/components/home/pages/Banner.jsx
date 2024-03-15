@@ -53,11 +53,11 @@ const Banner = () => {
                         </ul>
                     </nav >
                     <div>
-                       <button><a href={Resume} download className="btn btn-info mt-5 flex items-center rounded-full text-base"><span><IoMdCloudDownload className="text-2xl" /></span>Downlaod Resume </a></button>
+                        <button><a href={Resume} download className="btn btn-info mt-5 flex items-center rounded-full text-base"><span><IoMdCloudDownload className="text-2xl" /></span>Downlaod Resume </a></button>
                     </div>
                 </div>
                 <div data-aos="fade-left" className='w-full md:w-[30%] lg:w-[40%] relative '>
-                    <div className='w-[300px] md:w-[220px] lg:w-[400px] rounded-full mx-auto h-[300px] md:h-[220px] lg:h-[400px] border-4 hover:border-fuchsia-600 transition cursor-pointer border-[#7d5fff]'>
+                    <div className='w-[300px] md:w-[220px] lg:w-[400px] rounded-full mx-auto h-[300px] md:h-[220px] lg:h-[400px] border-4 hover:border-fuchsia-500 transition cursor-pointer border-[#7d5fff]'>
                         <img src={Image} className='w-full h-full rounded-full' alt="profile-image" />
                     </div>
                 </div>

@@ -1,5 +1,5 @@
 import { Outlet } from "react-router-dom";
-import Navbar from "../components/heade/navbar/Navbar";
+import Navbar from "../components/header/navbar/Navbar";
 import { useEffect, useState } from "react";
 import { NavHashLink as Link } from "react-router-hash-link";
 import { IoIosArrowUp } from "react-icons/io";
