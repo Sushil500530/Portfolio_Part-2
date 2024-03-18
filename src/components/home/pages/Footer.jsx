@@ -7,20 +7,20 @@ const Footer = () => {
             <footer className="w-full h-full">
                 <nav>
                     <ul className=" flex items-center justify-center gap-3">
-                        <span className="tooltip" data-tip="Facebook">
+                        <span className="tooltip tooltip-bottom" data-tip="Facebook">
                             <li className="w-10 h-10 rounded-full border-2 hover:text-[#1974ec] transition ease-in-out hover:border-fuchsia-500"><Link to="https://tinyurl.com/46j32cs7" target="_blank" ><FaFacebook className="w-full h-full p-1 cursor-pointer " /></Link></li>
                         </span>
-                        <span className="tooltip" data-tip="Linkedin">
-                            <li className="w-10 h-10 rounded-full border-2 hover:text-[#1974ec] transition ease-in-out hover:border-fuchsia-500"><Link to="https://tinyurl.com/46j32cs7" target="_blank"><FaLinkedinIn className="w-full h-full p-1 cursor-pointer " /></Link></li>
+                        <span className="tooltip tooltip-bottom" data-tip="Linkedin">
+                            <li className="w-10 h-10 rounded-full border-2 hover:text-[#1974ec] transition ease-in-out hover:border-fuchsia-500"><Link to="https://www.linkedin.com/in/sushil-hemrom-b39b762b8/" target="_blank"><FaLinkedinIn className="w-full h-full p-1 cursor-pointer " /></Link></li>
                         </span>
-                        <span className="tooltip" data-tip="Github">
+                        <span className="tooltip tooltip-bottom" data-tip="Github">
                             <li className="w-10 h-10 rounded-full border-2 hover:text-[#1974ec] transition ease-in-out hover:border-fuchsia-500"><Link to="https://github.com/Sushil500530" target="_blank"><FaGithub className="w-full h-full p-1 cursor-pointer " /></Link></li>
                         </span>
-                        <span className="tooltip" data-tip="Instagram">
-                            <li className="w-10 h-10 rounded-full border-2 hover:text-[#1974ec] transition ease-in-out hover:border-fuchsia-500"><Link to="#"><FaInstagramSquare className="w-full h-full p-1 cursor-default " /></Link></li>
+                        <span className="tooltip tooltip-bottom" data-tip="Instagram">
+                            <li className="w-10 h-10 rounded-full border-2 hover:text-[#1974ec] transition ease-in-out hover:border-fuchsia-500"><Link to="https://www.instagram.com/sushil500530/" target="_blank"><FaInstagramSquare className="w-full h-full p-1 cursor-pointer " /></Link></li>
                         </span>
-                        <span className="tooltip" data-tip="Twitter">
-                            <li className="w-10 h-10 rounded-full border-2 hover:text-[#1974ec] transition ease-in-out hover:border-fuchsia-500"><Link to="#"><FaTwitter className="w-full h-full p-1 cursor-default " /></Link></li>
+                        <span className="tooltip tooltip-bottom" data-tip="Twitter">
+                            <li className="w-10 h-10 rounded-full border-2 hover:text-[#1974ec] transition ease-in-out hover:border-fuchsia-500"><Link to="https://twitter.com/Sushil500530Roy" target="_blank"><FaTwitter className="w-full h-full p-1 cursor-pointer " /></Link></li>
                         </span>
                     </ul>
                 </nav >
