@@ -11,7 +11,7 @@ const MainLayout = () => {
         const stackTime = () => {
             setTimeout(() => {
                 setIsLoading(false)
-            }, 2000);
+            }, 3000);
         }
         stackTime()
     }, [])

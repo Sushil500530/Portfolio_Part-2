@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 import { TypeAnimation } from "react-type-animation";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-import Resume from "../../../assets/image/sushil_resume (2).pdf"
+import Resume from "../../../assets/image/Sushil_Resume_MERN.pdf"
 
 const Banner = () => {
     AOS.init({
