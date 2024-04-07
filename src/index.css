@@ -5,8 +5,11 @@
 a:hover{
     columns: red;
 }
+a:focus {
+ @apply text-xl font-medium border-b-2 w-[80px] flex items-center justify-center hover:border-b-2 border-b-white hover:-translate-y-[1px] transition ease-in-out
+}
 a:active {
-  color: black;
+ @apply text-xl font-medium border-b-2 w-[80px] flex items-center justify-center hover:border-b-2 border-b-white hover:-translate-y-[1px] transition ease-in-out
 }
 body{
   scroll-behavior: smooth;

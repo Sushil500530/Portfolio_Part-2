@@ -35,7 +35,7 @@ const BlogPage = () => {
             <hr className='w-32 border-b-2 border-fuchsia-500 mt-2' />
             <div className='mt-7 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10' >
                 {
-                    blogData?.map(blog => <div key={blog?.id} data-aos="flip-down" className="cursor-pointer border w-full h-[330px] lg:h-[380px] xl:h-[430px] 2xl:h-[430px] relative group border-[#7d5fff] hover:border-none group rounded-lg hover:rounded-lg overflow-hidden">
+                    blogData?.map(blog => <div key={blog?.id} data-aos="flip-down" className="cursor-pointer border w-full h-[330px] lg:h-[300px] xl:h-[380px] 2xl:h-[430px] relative group border-[#7d5fff] hover:border-none group rounded-lg hover:rounded-lg overflow-hidden">
                         <div><img src={blog?.image} className='w-full h-[430px]' alt="project-image" /></div>
                         <div className='bg-gradient-to-b from-[#40407a] to-black z-10 pb-6 absolute w-full h-auto inset-y-0 flex items-center hover:opacity-90 justify-center flex-col transform lg:block translate-y-full group-hover:translate-y-0 dark:text-white dark:bg-zinc-800 transition duration-500 ease-in-out inset-0 overflow-x-hidden opacity-0 group-hover:opacity-100  rounded-lg'>
                             <div className='absolute w-full h-auto top-[40%] flex flex-col items-center justify-center'>
